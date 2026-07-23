@@ -1,4 +1,6 @@
 #!/bin/bash
+docker login --username=${{ secrets.USR }} --password=${{ secrets.PSW }} registry.cn-hangzhou.aliyuncs.com
+
 
 for i in `cat images.txt`;do 
       docker pull --platform linux/arm64 $i
