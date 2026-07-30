@@ -1,1 +1,1 @@
-apache/spark-kubernetes-operator:0.9.0
+apache/spark-kubernetes-operator:0.8.0
